@@ -15,7 +15,7 @@ const schemas = gql`
     }
     type Likes{
         id: String
-        like: int!
+        like: Int!
     }
     type Query {
         blogs: [Blog]
